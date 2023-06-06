@@ -13,7 +13,6 @@ def init_network():
     network['b2'] = np.array([0.1, 0.2])
     network['w3'] = np.array([[0.1, 0.3], [0.2, 0.4]])
     network['b3'] = np.array([0.1, 0.2])
-
     return network
 
 def forward(network, x):
