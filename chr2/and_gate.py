@@ -7,7 +7,7 @@ def AND(x1, x2):
     """
     ここからは共通
     """
-    tmp = np.sum(w*x) + b
+    tmp = np.sum(w*x)+b
     if tmp <= 0:
         return 0
     else:
