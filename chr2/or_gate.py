@@ -5,7 +5,7 @@ def OR(x1, x2):
     w = np.array([0.5, 0.5])
     b = -0.2
     """
-    ここから下は共通
+    ここからは共通
     """
     tmp = np.sum(w*x) + b
     if tmp <= 0:

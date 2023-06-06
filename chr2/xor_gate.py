@@ -3,6 +3,9 @@ from or_gate import OR
 from nand_gate import NAND
 
 def XOR(x1, x2):
+    """
+    ゲートを組み合わせて実装
+    """
     s1 = NAND(x1, x2)
     s2 = OR(x1, x2)
     y = AND(s1, s2)
