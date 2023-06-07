@@ -1,9 +1,8 @@
 # coding: utf-8
 import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
-from common.activation import *
+from common.function import *
 from common.gradient import numerical_gradient
-from common.loss import cross_entropy_error
 import numpy as np
 
 
